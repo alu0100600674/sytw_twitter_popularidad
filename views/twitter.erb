@@ -70,7 +70,7 @@
 	</head>
 	<body>
 		<div id="cabecera">
-	 			<p><img src="../public/bird_icon.png" WIDTH=100 HEIGHT=100 />
+	 			<p><img src="/bird_icon.png" WIDTH=100 HEIGHT=100 />
 	 			<b>Amigos más populares de un usuario</b></p>
 	 	</div>
 	 	
@@ -90,8 +90,8 @@
 			<%end %>
 
 			<% if @name != ''%>
-				<%if @number>200%>
-					<p id="warning"> Sólo se puede mostrar hasta 200 amigos </p>
+				<%if @number>10%>
+					<p id="warning"> Sólo se puede mostrar hasta 10 amigos </p>
 				<%elsif @todo_tweet.length <= 0 %>
 					<p id="warning">El usuario no existe o no tiene amigos</p>
 				<%elsif @todo_tweet.length < @number %>
