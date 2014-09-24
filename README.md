@@ -3,8 +3,12 @@ Aplicación web que muestra los amigos de Twitter ordenados de más popular a me
 
 ### Preparar las gemas
 Las gemas están indicadas en el fichero Gemfile, por lo que para instalarlas hay que ejuctar:
-    bundle install
+~~~
+bundle install
+~~~
 
 ### Ejecutar
 Para ejecutar:
-    rake
+~~~
+rake
+~~~
