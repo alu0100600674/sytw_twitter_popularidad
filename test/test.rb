@@ -26,4 +26,14 @@ describe "Contenido de la web" do
 		assert last_response.body.include?("Amigos más populares de un usuario")
 	end
 	
+	it "Campo para la inserción de un usuario" do
+		get '/'
+		assert last_response.body.include?("Introduzca su nombre en Twitter")
+	end
+	
+	it "Campo para reducir el número de amigos a buscar" do
+		get '/'
+		assert last_response.body.include?("¿Cúantos amigos quiere ver?")
+	end
+	
 end
