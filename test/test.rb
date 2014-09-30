@@ -18,7 +18,7 @@ describe "Contenido de la web" do
 	
 	it "Titulo de la web" do
 		get '/'
-		assert last_response.head.include?("Amigos más populares de un usuario")
+		assert last_response.body.include?("<title>Amigos más populares de un usuario</title>")
 	end
 	
 	it "Titulo de la web mostrado" do
@@ -33,7 +33,7 @@ describe "Contenido de la web" do
 	
 	it "Campo para reducir el número de amigos a buscar" do
 		get '/'
-		assert last_response.body.include?("¿Cúantos amigos quiere ver?")
+		assert last_response.body.include?("¿Cuántos amigos quiere ver?")
 	end
 	
 end
