@@ -1,4 +1,4 @@
 *.kate-swp
 ~
 
-Gemfile.lock
+#Gemfile.lock
