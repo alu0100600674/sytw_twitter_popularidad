@@ -3,6 +3,7 @@ rvm:
   - 2.0.0
 script:
   - bundle update && bundle install
+  - ruby test/test.rb
 branches:
   only:
     - master
