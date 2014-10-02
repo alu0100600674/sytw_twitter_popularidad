@@ -37,3 +37,24 @@ describe "Contenido de la web" do
 	end
 	
 end
+
+
+describe "Usuarios en Twitter" do
+	
+	before :all do
+		@client = my_twitter_client()
+		@user1 = "jonay_bta"
+		@user2 = "bmbuenavista"
+		@user3 = "aaaa1aa1aaaaaaabb2bbbb2bbbbbc3ccccccc3ccc"
+	end
+	
+	it "Usuario que debe existir" do
+		assert @client.user? @user1
+		assert @client.user? @user2
+	end
+	
+	it "Usuario que no debe existir" do
+		refute @client.user? @user3
+	end
+	
+end
