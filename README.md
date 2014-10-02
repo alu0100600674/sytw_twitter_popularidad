@@ -21,5 +21,5 @@ rake test
 
 ### Implantación en Heroku
 La aplicación se encuentra funcionando en Heroku en la dirección:
-[App en Heroku](http://twitterpop.herokuapp.com)
+[http://twitterpop.herokuapp.com](http://twitterpop.herokuapp.com)
 
