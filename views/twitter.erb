@@ -3,6 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 
 		
 <!-- 		<title>Rack::Response</title> -->
@@ -16,9 +17,9 @@
 	 	
 	 	<div id="re">
 		 	<form action="/" method="post">
-		   		<p><b>Introduzca su nombre en Twitter: </b></p><input type="text" name="firstname"  value="" autofocus>
-		   		<p><b>¿Cuántos amigos quiere ver? </b></p><input type="text" name="n" value="1">
-		   		<input  type="submit" value="Submit" >
+		   		<p><b>Introduzca su nombre en Twitter: </b></p><input type="text" name="firstname" class="form-control" value="" autofocus>
+		   		<p><b>¿Cuántos amigos quiere ver? </b></p><input type="text" name="n" class="form-control" value="1">
+		   		<input  type="submit" value="Submit" class="btn btn-primary" >
 		 	</form>
 	 	</div>
  		
@@ -51,5 +52,11 @@
 				<%end%>
 			<%end%>
 		</div>	
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		
 	</body>
 </html>
