@@ -23,3 +23,7 @@ rake test
 La aplicación se encuentra funcionando en Heroku en la dirección:
 [http://twitterpop.herokuapp.com](http://twitterpop.herokuapp.com)
 
+### Travis
+La aplicación se también está en Travis en la dirección:
+[https://travis-ci.org/alu0100600674/sytw_twitter_popularidad](https://travis-ci.org/alu0100600674/sytw_twitter_popularidad)
+
