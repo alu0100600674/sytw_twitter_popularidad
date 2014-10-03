@@ -25,13 +25,15 @@ p{
 	margin-left: 6em;
 	margin-bottom: 4em;
 	border: 3px solid gray;
-	width: 25em;
+/* 	width: 25em; */
+	width: 35em;
 	float: left;
 	font-size: 1em;
 }
 
 #izquierda{
-	width: 30em; 
+/* 	width: 30em;  */
+	width: 35em;
 	text-align: center;
 	font-family:Arial;
 	color:black;
